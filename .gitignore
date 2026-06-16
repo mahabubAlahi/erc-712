@@ -12,3 +12,7 @@ docs/
 
 # Dotenv file
 .env
+
+# Node (offchain/ harness)
+node_modules/
+**/node_modules/
