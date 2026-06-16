@@ -1,0 +1,13 @@
+{
+  "name": "payment-verifier-offchain",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Off-chain EIP-712 signing + on-chain verification for PaymentVerifierOZ",
+  "scripts": {
+    "sign-verify": "node --env-file=.env signAndVerify.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
